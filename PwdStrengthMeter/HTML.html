@@ -1,0 +1,13 @@
+<div id="app">
+  <div class="form-control">
+    <label for="password" class="form-label">Password Strength Meter</label>
+    <input id="password" type="password" v-model="password" placeholder="Enter your password" />
+    <div class="progress">
+      <div role="progressbar" 
+           class="progress-bar"  
+           :style="{width: percent + '%', backgroundColor: scoreColor }" 
+           aria-valuemin="0" 
+           aria-valuemax="100"></div>
+    </div>
+  </div>
+    </div>
